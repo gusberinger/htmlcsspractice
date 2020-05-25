@@ -1,10 +1,61 @@
-
+<!DOCTYPE html>
 <html lang="en" dir="ltr">
+  <!--head-->
   <head>
     <meta charset="utf-8">
-    <title>Hello Coursera!</title>
+    <meta name= "viewport" content="width=device-width, initial-scale=1">
+    <title>Gordini's Pizzeria</title>
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <link rel="stylesheet" href="./css/styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Oxygen:wght@300;400;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Lora:wght@700&display=swap" rel="stylesheet">
   </head>
+
+  <!--body content-->
   <body>
-  <h1>Hello Coursera! It's a great course!</h1>
+    <header>
+      <nav id="header-nav" class="navbar navbar-default">
+        <div class="container">
+          <div class = "navbar-header">
+
+            <!--logo-->
+            <a href=./index.html class="float-left d-none d-md-block d-lg-block d-xl-block">
+              <div id="logo-img" alt= "logo image"></div>
+            </a>
+
+            <!--title with tagline-->
+            <div id = "rest-name" class="navbar-brand">
+              <a href="index.html"><h1><strong>Gordini's Pizzeria</strong></h1></a>
+              <span class ="d-none d-md-block d-lg-block d-xl-block">Our dough, your way!</span>
+            </div>
+
+            <!--navbar toggle-->
+            <div class="pos-r-t d-md-none d-lg-none d-xl-none float-right">
+              <nav class="navbar navbar-dark">
+                <button id ="toggle" class="navbar-toggler float-right" type="button" data-toggle="collapse" data-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent" aria-expanded="false" aria-label="Toggle navigation">
+                  <span class="navbar-toggler-icon"></span>
+                </button>
+              </nav>
+              <div class="collapse" id="navbarToggleExternalContent">
+                <ul>
+                <a href="./menu.html"><li><span class="glyphicon glyphicon-cutlery"></span>Menu</a>
+                <a href="./ecomm.html"><li>Order Now</a>
+                <a href="./contact.html"><li>Contact Us</a>
+                <a href="./aboutus.html"><li>About Us</a>
+                </ul>
+              </div>
+
+            </div>
+
+
+
+          </div>
+        </div>
+      </nav>
+    </header>
+    Rest of Body
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" crossorigin="anonymous"></script>
   </body>
 </html>
